@@ -1,12 +1,12 @@
-连接
+1.连接
 ssh root@218.107.53.40
 
-下载服务器文件到本地
+2。下载服务器文件到本地
 scp root@218.107.53.40:/root/listinfo.xml Desktop/
 
-上传本地文件到服务器
+3.上传本地文件到服务器
 scp Desktop/index.html root@218.107.53.40:/root
 
-上传目录
+4.上传目录
 scp -r /Users/yzm/apache-tomcat-7.0.27 root@115.29.142.35:/usr/local/
 
